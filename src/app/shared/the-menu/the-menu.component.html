@@ -1,0 +1,17 @@
+<div class="">
+  <h1>{{ "principal.texto" | translate }}</h1>
+  <div style="display:flex; justify-content:space-around; align-items:center;">
+    <div
+      [ngClass]="{ active: activeLang == 'es' }"
+      (click)="cambiarLenguaje('es')"
+    >
+      <img src="assets/img/peruvian_flag.png" alt="" class="flag-icon" />
+    </div>
+    <div
+      [ngClass]="{ active: activeLang == 'en' }"
+      (click)="cambiarLenguaje('en')"
+    >
+      <img src="assets/img/american_flag.png" alt="" class="flag-icon" />
+    </div>
+  </div>
+</div>
