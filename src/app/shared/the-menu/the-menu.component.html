@@ -1,17 +1,26 @@
-<div class="">
-  <h1>{{ "principal.texto" | translate }}</h1>
-  <div style="display:flex; justify-content:space-around; align-items:center;">
-    <div
-      [ngClass]="{ active: activeLang == 'es' }"
-      (click)="cambiarLenguaje('es')"
-    >
-      <img src="assets/img/peruvian_flag.png" alt="" class="flag-icon" />
-    </div>
-    <div
-      [ngClass]="{ active: activeLang == 'en' }"
-      (click)="cambiarLenguaje('en')"
-    >
-      <img src="assets/img/american_flag.png" alt="" class="flag-icon" />
-    </div>
+<div class="main-logo">
+  <img src="assets/img/logo.png" alt="" />
+</div>
+<div class="desktop-languages-flag">
+  <div
+    [ngClass]="{ active: activeLang == 'es' }"
+    (click)="cambiarLenguaje('es')"
+  >
+    <img src="assets/img/peruvian_flag.png" alt="" class="desktop-flag-icon" />
   </div>
+  <div
+    [ngClass]="{ active: activeLang == 'en' }"
+    (click)="cambiarLenguaje('en')"
+  >
+    <img src="assets/img/american_flag.png" alt="" class="desktop-flag-icon" />
+  </div>
+</div>
+
+<div class="desktop-menu">
+  <li class="desktop-menu-item">{{ "principal.menu.itemuno" | translate }}</li>
+  <li class="desktop-menu-item">{{ "principal.menu.itemdos" | translate }}</li>
+  <li class="desktop-menu-item">{{ "principal.menu.itemtres" | translate }}</li>
+  <li class="desktop-menu-item">
+    {{ "principal.menu.itemcuatro" | translate }}
+  </li>
 </div>

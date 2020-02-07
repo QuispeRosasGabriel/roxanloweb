@@ -9,17 +9,21 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
-//Shared
+//shared
 import { TheMenuComponent } from './shared/the-menu/the-menu.component';
+
+//Modules
+import { HomeModule } from './pages/home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TheMenuComponent
+    TheMenuComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HomeModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

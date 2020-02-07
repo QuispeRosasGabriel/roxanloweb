@@ -1,5 +1,10 @@
 {
   "principal": {
-    "texto": "PAGINA WEB"
+    "menu": {
+      "itemuno": "Inicio",
+      "itemdos": "Nosotros",
+      "itemtres": "Galeria",
+      "itemcuatro": "Contacto"
+    }
   }
 }

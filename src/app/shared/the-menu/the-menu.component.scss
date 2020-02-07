@@ -11,6 +11,49 @@ $main-roxanlo: #dacc99;
 $secondary-roxanlo: #c3bcab;
 $black-main: #000000;
 
-.flag-icon {
-  width: 30px;
+.main-logo {
+  text-align: center;
+}
+
+.desktop-flag-icon {
+  width: 26px;
+  height: 17px;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.desktop-languages-flag {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.desktop-menu {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: $main-roxanlo;
+  }
+}
+
+.desktop-menu-item {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    display: flex;
+    padding: 5px;
+  }
 }
