@@ -15,6 +15,7 @@ import { TheMenuComponent } from './shared/the-menu/the-menu.component';
 //Modules
 import { HomeModule } from './pages/home/home.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,9 +34,10 @@ import { HomeModule } from './pages/home/home.module';
         },
         deps: [HttpClient]
       }
-    })
+    }),
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

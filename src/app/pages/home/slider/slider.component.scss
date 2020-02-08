@@ -1,0 +1,20 @@
+//breakpoints
+$large-dektop: 1440px;
+$medium-dektop: 1024px;
+$tablet: 768px;
+$large-mobile: 425px;
+$medium-mobile: 375px;
+$small-mobile: 320px;
+
+.item-slider {
+  // height: 660px;
+  @media screen and (min-width: $small-mobile) {
+    height: 250px;
+  }
+  @media screen and (min-width: $tablet) {
+    height: 350px;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    height: 650px;
+  }
+}
