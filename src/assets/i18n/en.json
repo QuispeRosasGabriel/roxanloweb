@@ -5,6 +5,9 @@
       "itemdos": "About",
       "itemtres": "Gallery",
       "itemcuatro": "Contact"
+    },
+    "botones": {
+      "calluno": "Discover"
     }
   }
 }

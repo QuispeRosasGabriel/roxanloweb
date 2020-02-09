@@ -5,6 +5,9 @@ import { HomeRoutingModule } from './home.routing';
 //components
 import { SliderComponent } from './slider/slider.component';
 
+//This module helps u to use the pipe "translate"
+import { TranslateModule } from '@ngx-translate/core';
+
 
 @NgModule({
   declarations: [
@@ -13,6 +16,7 @@ import { SliderComponent } from './slider/slider.component';
   ],
   imports: [
     HomeRoutingModule,
+    TranslateModule
   ],
   exports: [
     HomeComponent,

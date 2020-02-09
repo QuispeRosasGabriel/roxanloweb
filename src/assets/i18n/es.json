@@ -5,6 +5,9 @@
       "itemdos": "Nosotros",
       "itemtres": "Galeria",
       "itemcuatro": "Contacto"
+    },
+    "botones": {
+      "calluno": "Ver Más"
     }
   }
 }

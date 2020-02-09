@@ -1,0 +1,22 @@
+//breakpoints
+$large-dektop: 1440px;
+$medium-dektop: 1024px;
+$tablet: 768px;
+$large-mobile: 425px;
+$medium-mobile: 375px;
+$small-mobile: 320px;
+
+.desktop-contenedor {
+  @media screen and (min-width: $small-mobile) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  @media screen and (min-width: $large-dektop) {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+}
