@@ -4,6 +4,7 @@ import { HomeRoutingModule } from './home.routing';
 
 //components
 import { SliderComponent } from './slider/slider.component';
+import { WantedComponent } from './wanted/wanted.component';
 
 //This module helps u to use the pipe "translate"
 import { TranslateModule } from '@ngx-translate/core';
@@ -13,6 +14,7 @@ import { TranslateModule } from '@ngx-translate/core';
   declarations: [
     HomeComponent,
     SliderComponent,
+    WantedComponent,
   ],
   imports: [
     HomeRoutingModule,
