@@ -8,6 +8,9 @@
     },
     "botones": {
       "calluno": "Ver Más"
+    },
+    "slider": {
+      "titleSlider": "Productos Exclusivos"
     }
   }
 }

@@ -8,6 +8,9 @@
     },
     "botones": {
       "calluno": "Discover"
+    },
+    "slider": {
+      "titleSlider": "Exclusive For You"
     }
   }
 }
