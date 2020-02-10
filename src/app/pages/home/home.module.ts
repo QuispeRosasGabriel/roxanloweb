@@ -8,6 +8,7 @@ import { WantedComponent } from './wanted/wanted.component';
 
 //This module helps u to use the pipe "translate"
 import { TranslateModule } from '@ngx-translate/core';
+import { MixedComponent } from './mixed/mixed.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { TranslateModule } from '@ngx-translate/core';
     HomeComponent,
     SliderComponent,
     WantedComponent,
+    MixedComponent,
   ],
   imports: [
     HomeRoutingModule,
