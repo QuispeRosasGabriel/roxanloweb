@@ -11,10 +11,10 @@ $small-mobile: 320px;
   position: relative;
   text-align: center;
   @media screen and (min-width: $small-mobile) {
-    font-size: 20px;
+    font-size: 24px;
   }
   @media screen and (min-width: $tablet) {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 
@@ -33,7 +33,7 @@ $small-mobile: 320px;
   margin: 0 auto;
   left: 0;
   right: 0;
-  width: 3%;
+  width: 4%;
   background: #000000;
 
   /* optional animation */
@@ -46,7 +46,7 @@ $small-mobile: 320px;
 
 /* optional hover classes used with anmiation */
 .underline:hover:after {
-  width: 5%;
+  width: 6%;
   background: #000000;
 }
 
@@ -62,5 +62,21 @@ $small-mobile: 320px;
   @media screen and (min-width: $large-dektop) {
     margin-right: 150px;
     margin-left: 150px;
+  }
+}
+
+.call-button {
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
   }
 }
