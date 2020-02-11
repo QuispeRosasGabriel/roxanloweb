@@ -18,6 +18,11 @@
     },
     "hero": {
       "presentation": "Luce Hermosa, Sientete Bien"
+    },
+    "fin": {
+      "connect": "Hablemos",
+      "out": "Soy Extranjero",
+      "security": "Terminos y Condiciones"
     }
   }
 }

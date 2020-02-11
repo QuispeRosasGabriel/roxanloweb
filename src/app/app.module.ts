@@ -14,12 +14,16 @@ import { TheMenuComponent } from './shared/the-menu/the-menu.component';
 
 //Modules
 import { HomeModule } from './pages/home/home.module';
+import { FinComponent } from './shared/fin/fin.component';
+import { SocialComponent } from './shared/social/social.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TheMenuComponent,
+    FinComponent,
+    SocialComponent,
   ],
   imports: [
     BrowserModule,
