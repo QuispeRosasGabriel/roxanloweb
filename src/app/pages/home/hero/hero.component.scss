@@ -1,0 +1,53 @@
+//breakpoints
+$large-dektop: 1440px;
+$medium-dektop: 1024px;
+$tablet: 768px;
+$large-mobile: 425px;
+$medium-mobile: 375px;
+$small-mobile: 320px;
+
+//colors
+$main-roxanlo: #dacc99;
+$secondary-roxanlo: #c3bcab;
+$black-main: #000000;
+$main-decorator: #f6f6f6;
+$white: #ffffff;
+
+.general-fondo {
+  background-color: $main-decorator;
+  @media screen and (min-width: $small-mobile) {
+    padding: 20px;
+  }
+  @media screen and (min-width: $large-mobile) {
+    padding: 15px;
+  }
+  @media screen and (min-width: $tablet) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+.line-decorator {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    border-left: 2px solid black;
+    height: 100%;
+  }
+}
+
+.line-decorator-mobile {
+  @media screen and (min-width: $small-mobile) {
+    display: flex;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
