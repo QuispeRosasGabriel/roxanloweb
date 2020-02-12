@@ -1,4 +1,4 @@
-<div class="container">
+<div class="desktop-contenedor">
   <div class="main-logo animated fadeIn">
     <img src="assets/img/logo.png" alt="" />
   </div>
@@ -24,35 +24,43 @@
       />
     </div>
   </div>
+</div>
 
-  <div class="desktop-menu ">
-    <li class="desktop-menu-item">
+<!-- menu en desktop -->
+<nav class="supermenu">
+  <ul id="main">
+    <li>
       <a class="font-details" [routerLink]="['']">
         {{ "principal.menu.itemuno" | translate }}
       </a>
     </li>
-    <li class="desktop-menu-item">
+    <li>
       <a class="font-details" [routerLink]="['/about']">
         {{ "principal.menu.itemdos" | translate }}
       </a>
     </li>
-    <li class="desktop-menu-item">
+    <li>
       <a class="font-details" [routerLink]="['gallery']">
         {{ "principal.menu.itemtres" | translate }}
       </a>
-      <!-- <ul>
-        <li><a href="">Itemcascada</a></li>
-        <li><a href="">Itemcascada</a></li>
-        <li><a href="">Itemcascada</a></li>
-        <li><a href="">Itemcascada</a></li>
-      </ul> -->
+      <ul class="drop">
+        <div>
+          <li>Elemento1</li>
+          <li>Elemento1</li>
+          <li>Elemento1</li>
+          <li>Elemento1</li>
+          <li>Elemento1</li>
+          <li>Elemento1</li>
+        </div>
+      </ul>
     </li>
-    <li class="desktop-menu-item">
+    <li>
       <a class="font-details" [routerLink]="['contact']">
         {{ "principal.menu.itemcuatro" | translate }}
       </a>
     </li>
-  </div>
+    <div id="marker"></div>
+  </ul>
+</nav>
 
-  <hr class="my-3" />
-</div>
+<hr class="my-3" />

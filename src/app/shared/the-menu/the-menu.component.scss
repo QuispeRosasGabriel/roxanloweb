@@ -10,6 +10,24 @@ $small-mobile: 320px;
 $main-roxanlo: #dacc99;
 $secondary-roxanlo: #c3bcab;
 $black-main: #000000;
+$white: #ffffff;
+
+$min-width: 150px;
+
+.desktop-contenedor {
+  @media screen and (min-width: $small-mobile) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  @media screen and (min-width: $large-dektop) {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+}
 
 .main-logo {
   text-align: center;
@@ -28,35 +46,103 @@ $black-main: #000000;
   @media screen and (min-width: $small-mobile) {
     display: none;
   }
-  @media screen and (min-width: $medium-dektop) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
 
-.desktop-menu {
+.supermenu {
+  text-align: center;
   @media screen and (min-width: $small-mobile) {
     display: none;
   }
-  @media screen and (min-width: $medium-dektop) {
+  @media screen and (min-width: $tablet) {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
   }
 }
 
-.desktop-menu-item {
-  @media screen and (min-width: $small-mobile) {
-    display: none;
+@mixin transform($value) {
+  -webkit-transform: ($value);
+  -moz-transform: ($value);
+  -ms-transform: ($value);
+  transform: ($value);
+}
+@mixin transition($value) {
+  -webkit-transition: ($value);
+  -moz-transition: ($value);
+  -ms-transition: ($value);
+  transition: ($value);
+}
+
+#main {
+  position: relative;
+  list-style: none;
+  background: $white;
+  font-weight: 400;
+  font-size: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+  margin: 15px auto;
+  li {
+    font-size: 0.9rem;
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+    z-index: 5;
+    min-width: $min-width;
   }
-  @media screen and (min-width: $medium-dektop) {
-    display: flex;
-    padding: 5px;
+}
+li {
+  margin: 0;
+}
+.drop {
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  left: 0;
+  top: 48px;
+  div {
+    @include transform(translate(0, -100%));
+    @include transition(all 0.5s 0.1s);
+    position: relative;
   }
-  .font-details {
-    color: #000000;
-    font-weight: 550;
+  li {
+    display: block;
+    padding: 0;
+    width: 100%;
+    background: $secondary-roxanlo !important;
   }
+}
+#marker {
+  height: 6px;
+  background: $secondary-roxanlo !important;
+  position: absolute;
+  bottom: 0;
+  width: $min-width;
+  z-index: 2;
+  height: 3.5px;
+  @include transition(all 0.35s);
+}
+
+@for $i from 1 through 4 {
+  #main li:nth-child(#{$i}) {
+    &:hover ul div {
+      @include transform(translate(0, 0));
+    }
+    &:hover ~ #marker {
+      @include transform(translate(#{(-1 + $i) * $min-width}, 0));
+    }
+  }
+}
+
+.font-details {
+  color: #000000;
+  font-weight: 550;
+  text-decoration: none;
 }
