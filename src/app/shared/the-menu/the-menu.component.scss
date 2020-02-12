@@ -188,3 +188,19 @@ li {
     margin-bottom: 10px;
   }
 }
+
+.gabo-navbar {
+  background-color: $secondary-roxanlo;
+}
+
+.brand-mobile {
+  font-size: 20px;
+  .brand-mobile-item {
+    text-decoration: none;
+    color: $main-decorator;
+  }
+}
+
+.icon-mobile {
+  color: $main-decorator;
+}

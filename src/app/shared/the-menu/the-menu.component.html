@@ -1,15 +1,17 @@
 <div class="desktop-contenedor">
   <div class="mobile-contenedor">
     <div class="mobile-menu">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark gabo-navbar">
         <a class="navbar-brand" href="#">
-          <div class="mobile-logo">
-            <img src="assets/img/logo.png" alt="" class="logo-config" />
+          <div class="brand-mobile">
+            <a class="brand-mobile-item" [routerLink]="['']">
+              ROXANLO
+            </a>
           </div>
         </a>
 
         <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon icon-mobile"></span>
         </button>
 
         <div class="collapse navbar-collapse" [ngClass]="{ show: navbarOpen }">
@@ -25,13 +27,20 @@
                 {{ "principal.menu.itemdos" | translate }}
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link font-details" [routerLink]="['/gallery']">
+                {{ "principal.menu.itemtres" | translate }}
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-details" [routerLink]="['/contact']">
+                {{ "principal.menu.itemcuatro" | translate }}
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
     </div>
-    <!-- <div class="mobile-logo">
-      <img src="assets/img/logo.png" alt="" class="logo-config" />
-    </div> -->
   </div>
   <div class="desktop-logo">
     <img src="assets/img/logo.png" alt="" class="logo-config" />
@@ -74,7 +83,7 @@
       </a>
     </li>
     <li>
-      <a class="font-details" [routerLink]="['gallery']">
+      <a class="font-details" [routerLink]="['/gallery']">
         {{ "principal.menu.itemtres" | translate }}
       </a>
       <ul class="drop">
@@ -89,7 +98,7 @@
       </ul>
     </li>
     <li>
-      <a class="font-details" [routerLink]="['contact']">
+      <a class="font-details" [routerLink]="['/contact']">
         {{ "principal.menu.itemcuatro" | translate }}
       </a>
     </li>
