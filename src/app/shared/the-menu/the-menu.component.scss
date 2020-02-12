@@ -10,12 +10,10 @@ $small-mobile: 320px;
 $main-roxanlo: #dacc99;
 $secondary-roxanlo: #c3bcab;
 $black-main: #000000;
+$main-decorator: #f6f6f6;
 $white: #ffffff;
 
 $min-width: 150px;
-
-$lred: #e57373;
-$red: #f44336;
 
 .desktop-contenedor {
   @media screen and (min-width: $small-mobile) {
@@ -37,7 +35,7 @@ $red: #f44336;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $secondary-roxanlo;
+    background-color: $main-decorator;
   }
   @media screen and (min-width: $tablet) {
     display: none;
@@ -138,6 +136,7 @@ li {
   overflow: hidden;
   list-style: none;
   position: absolute;
+  z-index: 1000;
   padding: 0;
   width: 100%;
   left: 0;
@@ -180,35 +179,6 @@ li {
   color: #000000;
   font-weight: 550;
   text-decoration: none;
-}
-
-//Menu Mobile
-label {
-  background-color: $secondary-roxanlo;
-  cursor: pointer;
-}
-label,
-#content {
-  height: 20px;
-  width: 100px;
-  margin-bottom: 10px;
-  border: 1px solid #fff;
-  display: inline-block;
-}
-#menu-toggle {
-  display: none;
-}
-#menu {
-  background-color: $secondary-roxanlo;
-  width: 100px;
-  overflow: hidden;
-  max-height: 0;
-  padding: 0;
-  margin: 0 auto;
-  -webkit-transition: all 0.3s ease;
-}
-#menu-toggle:checked + #menu {
-  max-height: 100px;
 }
 
 .separador {
