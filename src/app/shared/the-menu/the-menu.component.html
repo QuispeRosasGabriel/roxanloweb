@@ -27,16 +27,24 @@
 
   <div class="desktop-menu ">
     <li class="desktop-menu-item">
-      {{ "principal.menu.itemuno" | translate }}
+      <a class="font-details" [routerLink]="['']">
+        {{ "principal.menu.itemuno" | translate }}
+      </a>
     </li>
     <li class="desktop-menu-item">
-      {{ "principal.menu.itemdos" | translate }}
+      <a class="font-details" [routerLink]="['/about']">
+        {{ "principal.menu.itemdos" | translate }}
+      </a>
     </li>
     <li class="desktop-menu-item">
-      {{ "principal.menu.itemtres" | translate }}
+      <a class="font-details">
+        {{ "principal.menu.itemtres" | translate }}
+      </a>
     </li>
     <li class="desktop-menu-item">
-      {{ "principal.menu.itemcuatro" | translate }}
+      <a class="font-details" [routerLink]="['contact']">
+        {{ "principal.menu.itemcuatro" | translate }}
+      </a>
     </li>
   </div>
 

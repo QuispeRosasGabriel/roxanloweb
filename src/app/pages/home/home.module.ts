@@ -5,11 +5,11 @@ import { HomeRoutingModule } from './home.routing';
 //components
 import { SliderComponent } from './slider/slider.component';
 import { WantedComponent } from './wanted/wanted.component';
+import { MixedComponent } from './mixed/mixed.component';
+import { HeroComponent } from './hero/hero.component';
 
 //This module helps u to use the pipe "translate"
 import { TranslateModule } from '@ngx-translate/core';
-import { MixedComponent } from './mixed/mixed.component';
-import { HeroComponent } from './hero/hero.component';
 
 
 @NgModule({
