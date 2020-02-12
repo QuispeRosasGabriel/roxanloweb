@@ -32,9 +32,6 @@ $min-width: 150px;
 
 .mobile-contenedor {
   @media screen and (min-width: $small-mobile) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: $main-decorator;
   }
   @media screen and (min-width: $tablet) {

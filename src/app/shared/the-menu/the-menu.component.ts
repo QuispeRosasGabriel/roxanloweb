@@ -9,6 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class TheMenuComponent implements OnInit {
 
   public activeLang = "en"
+  navbarOpen = false;
+
 
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang(this.activeLang);
@@ -21,6 +23,8 @@ export class TheMenuComponent implements OnInit {
     this.activeLang = lang;
     this.translate.use(lang);
   }
-
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
 
 }
