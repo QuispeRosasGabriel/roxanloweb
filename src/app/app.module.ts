@@ -13,7 +13,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TheMenuComponent } from './shared/the-menu/the-menu.component';
 
 //Modules
-import { HomeModule } from './pages/home/home.module';
 import { FinComponent } from './shared/fin/fin.component';
 import { SocialComponent } from './shared/social/social.component';
 
@@ -28,7 +27,6 @@ import { SocialComponent } from './shared/social/social.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
