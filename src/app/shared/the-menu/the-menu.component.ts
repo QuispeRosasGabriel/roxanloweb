@@ -22,4 +22,5 @@ export class TheMenuComponent implements OnInit {
     this.translate.use(lang);
   }
 
+
 }

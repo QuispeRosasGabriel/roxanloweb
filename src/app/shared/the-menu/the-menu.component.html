@@ -1,6 +1,49 @@
 <div class="desktop-contenedor">
-  <div class="main-logo animated fadeIn">
-    <img src="assets/img/logo.png" alt="" />
+  <div class="mobile-contenedor">
+    <div class="mobile-menu">
+      <label for="menu-toggle" class="text-center">
+        <i class="fas fa-bars"></i>
+      </label>
+      <input type="checkbox" id="menu-toggle" />
+      <ul id="menu" class="text-center">
+        <li>
+          <a class="font-details" [routerLink]="['']">
+            {{ "principal.menu.itemuno" | translate }}
+          </a>
+        </li>
+        <li>
+          <a class="font-details" [routerLink]="['/about']">
+            {{ "principal.menu.itemdos" | translate }}
+          </a>
+        </li>
+        <li>
+          <a class="font-details" [routerLink]="['gallery']">
+            {{ "principal.menu.itemtres" | translate }}
+          </a>
+          <ul class="drop">
+            <div>
+              <li>Elemento1</li>
+              <li>Elemento1</li>
+              <li>Elemento1</li>
+              <li>Elemento1</li>
+              <li>Elemento1</li>
+              <li>Elemento1</li>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a class="font-details" [routerLink]="['contact']">
+            {{ "principal.menu.itemcuatro" | translate }}
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-logo">
+      <img src="assets/img/logo.png" alt="" class="logo-config" />
+    </div>
+  </div>
+  <div class="desktop-logo">
+    <img src="assets/img/logo.png" alt="" class="logo-config" />
   </div>
   <div class="desktop-languages-flag">
     <div
@@ -62,5 +105,6 @@
     <div id="marker"></div>
   </ul>
 </nav>
-
-<hr class="my-3" />
+<div class="desktop-contenedor">
+  <hr class="separador" />
+</div>

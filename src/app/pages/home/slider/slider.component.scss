@@ -37,3 +37,13 @@ $small-mobile: 320px;
     text-decoration: none;
   }
 }
+
+.car-main {
+  @media screen and (min-width: $small-mobile) {
+    padding: 0;
+  }
+  @media screen and (min-width: $tablet) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

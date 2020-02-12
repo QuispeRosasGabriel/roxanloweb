@@ -14,6 +14,9 @@ $white: #ffffff;
 
 $min-width: 150px;
 
+$lred: #e57373;
+$red: #f44336;
+
 .desktop-contenedor {
   @media screen and (min-width: $small-mobile) {
     margin-right: 0px;
@@ -29,8 +32,40 @@ $min-width: 150px;
   }
 }
 
-.main-logo {
-  text-align: center;
+.mobile-contenedor {
+  @media screen and (min-width: $small-mobile) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $secondary-roxanlo;
+  }
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.desktop-logo {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 90px;
+    margin: 10px;
+  }
+}
+
+.mobile-logo {
+  @media screen and (min-width: $small-mobile) {
+    display: flex;
+    height: 60px;
+    margin: 15px;
+  }
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
 }
 
 .desktop-flag-icon {
@@ -145,4 +180,44 @@ li {
   color: #000000;
   font-weight: 550;
   text-decoration: none;
+}
+
+//Menu Mobile
+label {
+  background-color: $secondary-roxanlo;
+  cursor: pointer;
+}
+label,
+#content {
+  height: 20px;
+  width: 100px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+#menu-toggle {
+  display: none;
+}
+#menu {
+  background-color: $secondary-roxanlo;
+  width: 100px;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+}
+#menu-toggle:checked + #menu {
+  max-height: 100px;
+}
+
+.separador {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
