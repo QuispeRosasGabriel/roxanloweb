@@ -24,5 +24,12 @@
       "out": "I Live Abroad",
       "security": "Terms And Conditions"
     }
+  },
+  "about": {
+    "cards": {
+      "firstCard": "Collections",
+      "secondCard": "Misión",
+      "thirdCard": "Unique"
+    }
   }
 }

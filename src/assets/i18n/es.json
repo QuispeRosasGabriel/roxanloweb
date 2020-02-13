@@ -24,5 +24,12 @@
       "out": "Soy Extranjero",
       "security": "Terminos y Condiciones"
     }
+  },
+  "about": {
+    "cards": {
+      "firstCard": "Colecciones",
+      "secondCard": "Mision",
+      "thirdCard": "Exclusividad"
+    }
   }
 }
