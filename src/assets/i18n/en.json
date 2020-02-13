@@ -31,6 +31,9 @@
       "secondCard": "Mision",
       "thirdCard": "Unique"
     },
+    "textBanner": {
+      "title": "Some Concepts About Us"
+    },
     "cardText": {
       "firstCardText": "We make many collections for women and kids.They're really comfortable and modern.",
       "secondCardText": "Make modern products that are manufactured with ecological supplies",
