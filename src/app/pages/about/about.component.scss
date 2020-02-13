@@ -20,3 +20,19 @@ $small-mobile: 320px;
     margin-left: 150px;
   }
 }
+
+.banner-btn {
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

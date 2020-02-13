@@ -8,11 +8,15 @@
           alt="Card image cap"
         />
         <div class="card-body">
-          <h5 class="card-title">{{ "about.cards.firstCard" | translate }}</h5>
+          <h5 class="card-title font-weight-bold">
+            {{ "about.cards.firstCard" | translate }}
+          </h5>
           <p class="card-text">
             {{ "about.cardText.firstCardText" | translate }}
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a [routerLink]="['/gallery']" class="banner-btn font-weight-bold"
+            >Saber Más</a
+          >
         </div>
       </div>
     </div>
@@ -24,11 +28,15 @@
           alt="Card image cap"
         />
         <div class="card-body">
-          <h5 class="card-title">{{ "about.cards.secondCard" | translate }}</h5>
+          <h5 class="card-title font-weight-bold">
+            {{ "about.cards.secondCard" | translate }}
+          </h5>
           <p class="card-text">
             {{ "about.cardText.secondCardText" | translate }}
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a [routerLink]="['/contact']" class="banner-btn font-weight-bold"
+            >Saber Más</a
+          >
         </div>
       </div>
     </div>
@@ -40,11 +48,15 @@
           alt="Card image cap"
         />
         <div class="card-body">
-          <h5 class="card-title">{{ "about.cards.thirdCard" | translate }}</h5>
+          <h5 class="card-title font-weight-bold">
+            {{ "about.cards.thirdCard" | translate }}
+          </h5>
           <p class="card-text">
             {{ "about.cardText.thirdCardText" | translate }}
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a [routerLink]="['/gallery']" class="banner-btn font-weight-bold"
+            >Saber Más</a
+          >
         </div>
       </div>
     </div>
