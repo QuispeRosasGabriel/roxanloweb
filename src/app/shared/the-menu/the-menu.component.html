@@ -56,6 +56,30 @@
                 {{ "principal.menu.itemcuatro" | translate }}
               </a>
             </li>
+            <li class="nav-item">
+              <div class="d-flex justify-content-start align-items-start">
+                <div
+                  [ngClass]="{ active: activeLang == 'es' }"
+                  (click)="cambiarLenguaje('es')"
+                >
+                  <img
+                    src="assets/img/peruvian_flag.png"
+                    alt=""
+                    class="desktop-flag-icon"
+                  />
+                </div>
+                <div
+                  [ngClass]="{ active: activeLang == 'en' }"
+                  (click)="cambiarLenguaje('en')"
+                >
+                  <img
+                    src="assets/img/american_flag.png"
+                    alt=""
+                    class="desktop-flag-icon"
+                  />
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>
