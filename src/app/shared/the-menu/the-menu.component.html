@@ -27,10 +27,29 @@
                 {{ "principal.menu.itemdos" | translate }}
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link font-details" [routerLink]="['/gallery']">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle font-details"
+                [routerLink]="['/gallery']"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 {{ "principal.menu.itemtres" | translate }}
               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item font-details" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item font-details" href="#"
+                  >Another action</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item font-details" href="#"
+                  >Something else here</a
+                >
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link font-details" [routerLink]="['/contact']">
