@@ -28,8 +28,13 @@
   "about": {
     "cards": {
       "firstCard": "Collections",
-      "secondCard": "Misión",
+      "secondCard": "Mision",
       "thirdCard": "Unique"
+    },
+    "cardText": {
+      "firstCardText": "We make many collections for women and kids.They're really comfortable and modern.",
+      "secondCardText": "Make modern products that are manufactured with ecological supplies",
+      "thirdCardText": "Be unique, feel comfortable. Our products are exclusive and are kwnon for its high quality "
     }
   }
 }
