@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="mega-title">
+  <div class="mega-title underline">
     {{ "about.textBanner.title" | translate }}
   </div>
   <div class="row pb-5 pt-3">
@@ -17,9 +17,9 @@
           <p class="card-text">
             {{ "about.cardText.firstCardText" | translate }}
           </p>
-          <a [routerLink]="['/gallery']" class="banner-btn font-weight-bold"
-            >Saber Más</a
-          >
+          <a [routerLink]="['/gallery']" class="banner-btn font-weight-bold">
+            {{ "about.buttonCall.text" | translate }}
+          </a>
         </div>
       </div>
     </div>
@@ -37,9 +37,9 @@
           <p class="card-text">
             {{ "about.cardText.secondCardText" | translate }}
           </p>
-          <a [routerLink]="['/contact']" class="banner-btn font-weight-bold"
-            >Saber Más</a
-          >
+          <a [routerLink]="['/contact']" class="banner-btn font-weight-bold">
+            {{ "about.buttonCall.text" | translate }}
+          </a>
         </div>
       </div>
     </div>
@@ -57,11 +57,13 @@
           <p class="card-text">
             {{ "about.cardText.thirdCardText" | translate }}
           </p>
-          <a [routerLink]="['/gallery']" class="banner-btn font-weight-bold"
-            >Saber Más</a
-          >
+          <a [routerLink]="['/gallery']" class="banner-btn font-weight-bold">
+            {{ "about.buttonCall.text" | translate }}
+          </a>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<app-supertext></app-supertext>
