@@ -11,7 +11,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 //shared
 import { TheMenuComponent } from './shared/the-menu/the-menu.component';
-import { PhotoPieceComponent } from './shared/photo-piece/photo-piece.component';
 import { FinComponent } from './shared/fin/fin.component';
 import { SocialComponent } from './shared/social/social.component';
 
@@ -23,7 +22,6 @@ import { SocialComponent } from './shared/social/social.component';
     TheMenuComponent,
     FinComponent,
     SocialComponent,
-    PhotoPieceComponent,
   ],
   imports: [
     BrowserModule,

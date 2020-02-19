@@ -6,9 +6,11 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { GalleryRoutingModule } from './gallery.routing';
 
+import { PhotoPieceComponent } from 'src/app/shared/photo-piece/photo-piece.component';
 @NgModule({
   declarations: [
-    GalleryComponent
+    GalleryComponent,
+    PhotoPieceComponent
   ],
   imports: [
     GalleryRoutingModule,
@@ -17,7 +19,9 @@ import { GalleryRoutingModule } from './gallery.routing';
   ],
   exports: [
     GalleryComponent,
-    GalleryRoutingModule
+    GalleryRoutingModule,
+    PhotoPieceComponent
+
   ]
 })
 
