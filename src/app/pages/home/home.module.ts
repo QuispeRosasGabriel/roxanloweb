@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home.routing';
-
+import { CommonModule } from '@angular/common';
 //components
 import { SliderComponent } from './slider/slider.component';
 import { WantedComponent } from './wanted/wanted.component';
@@ -22,7 +22,8 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   imports: [
     HomeRoutingModule,
-    TranslateModule
+    TranslateModule,
+    CommonModule
   ],
   exports: [
     HomeComponent,

@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { ContactComponent } from './contact.component';
 import { ContactRoutingModule } from './contact.routing';
+import { CommonModule } from '@angular/common';
 
 //This module helps u to use the pipe "translate"
 import { TranslateModule } from '@ngx-translate/core';
@@ -11,7 +12,8 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   imports: [
     ContactRoutingModule,
-    TranslateModule
+    TranslateModule,
+    CommonModule
   ],
   exports: [
     ContactComponent,
