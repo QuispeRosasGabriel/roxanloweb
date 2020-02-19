@@ -20,3 +20,18 @@ $small-mobile: 320px;
     margin-left: 150px;
   }
 }
+
+.desktop-slider {
+  @media screen and (min-width: $small-mobile) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  @media screen and (min-width: $medium-dektop) {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  @media screen and (min-width: $large-dektop) {
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+}
