@@ -93,3 +93,21 @@ $small-mobile: 320px;
   /* Set a specific height */
   height: 500px;
 }
+
+.e-show-mobile {
+  @media screen and (min-width: $small-mobile) {
+    display: flex;
+  }
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
+.e-show-tablet-desktop {
+  @media screen and (min-width: $small-mobile) {
+    display: none;
+  }
+  @media screen and (min-width: $tablet) {
+    display: block;
+  }
+}
