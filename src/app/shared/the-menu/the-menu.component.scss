@@ -173,8 +173,10 @@ li {
 
 .font-details {
   color: #000000;
-  font-weight: 550;
   text-decoration: none;
+  &:hover {
+    font-weight: bold;
+  }
 }
 
 .separador {
