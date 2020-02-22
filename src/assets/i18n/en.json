@@ -41,6 +41,10 @@
     },
     "buttonCall": {
       "text": "Learn More"
+    },
+    "bannerPhrase": {
+      "phrase": "Let us to tell you more",
+      "lead": "We care about using natural fibers to create each one of our collections"
     }
   }
 }

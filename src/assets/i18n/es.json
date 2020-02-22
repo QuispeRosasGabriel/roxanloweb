@@ -41,6 +41,10 @@
     },
     "buttonCall": {
       "text": "Saber Más"
+    },
+    "bannerPhrase": {
+      "phrase": "Te contamos un poco más",
+      "lead": "Nos centramos en usar fibras naturales para armar cada una de nuestras colecciones"
     }
   }
 }
