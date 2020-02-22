@@ -45,6 +45,10 @@
     "bannerPhrase": {
       "phrase": "Te contamos un poco más",
       "lead": "Nos centramos en usar fibras naturales para armar cada una de nuestras colecciones"
-    }
+    },
+    "collapseTitle": {
+      "collapseTitleOne": "Trabajamos con gente alrededor del mundo",
+      "collapseTitleTwo": "Se única, Se hermosa",
+      "collapseTitleThree": "¿Tienes alguna duda?. ¡Hablemos!"
   }
 }

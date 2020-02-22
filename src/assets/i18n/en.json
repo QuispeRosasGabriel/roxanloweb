@@ -45,6 +45,11 @@
     "bannerPhrase": {
       "phrase": "Let us to tell you more",
       "lead": "We care about using natural fibers to create each one of our collections"
+    },
+    "collapseTitle": {
+      "collapseTitleOne": "Working with people around the world",
+      "collapseTitleTwo": "Be unique, Be beauty",
+      "collapseTitleThree": "Do you have any question?. Let's talk!"
     }
   }
 }
