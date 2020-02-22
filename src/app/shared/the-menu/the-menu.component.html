@@ -1,7 +1,7 @@
 <div class="desktop-contenedor">
   <div class="mobile-contenedor">
     <div class="mobile-menu">
-      <nav class="navbar navbar-expand-lg navbar-dark gabo-navbar">
+      <nav class="navbar navbar-expand-lg navbar-light gabo-navbar">
         <a class="navbar-brand" href="#">
           <div class="brand-mobile">
             <a class="brand-mobile-item" [routerLink]="['']">
@@ -58,26 +58,28 @@
             </li>
             <li class="nav-item">
               <div class="d-flex justify-content-start align-items-start">
-                <div
+                <span
                   [ngClass]="{ active: activeLang == 'es' }"
                   (click)="cambiarLenguaje('es')"
                 >
-                  <img
+                  <!-- <img
                     src="assets/img/peruvian_flag.png"
                     alt=""
                     class="desktop-flag-icon"
-                  />
-                </div>
-                <div
+                  /> -->
+                  <span class="idioma">ES</span>
+                </span>
+                <span
                   [ngClass]="{ active: activeLang == 'en' }"
                   (click)="cambiarLenguaje('en')"
                 >
-                  <img
+                  <!-- <img
                     src="assets/img/american_flag.png"
                     alt=""
                     class="desktop-flag-icon"
-                  />
-                </div>
+                  /> -->
+                  <span class="idioma">EN</span>
+                </span>
               </div>
             </li>
           </ul>
@@ -93,22 +95,24 @@
       [ngClass]="{ active: activeLang == 'es' }"
       (click)="cambiarLenguaje('es')"
     >
-      <img
+      <!-- <img
         src="assets/img/peruvian_flag.png"
         alt=""
         class="desktop-flag-icon"
-      />
+      /> -->
+      <span class="idioma">ES</span>
     </div>
-    <div
+    <span
       [ngClass]="{ active: activeLang == 'en' }"
       (click)="cambiarLenguaje('en')"
     >
-      <img
+      <!-- <img
         src="assets/img/american_flag.png"
         alt=""
         class="desktop-flag-icon"
-      />
-    </div>
+      /> -->
+      <span class="idioma">EN</span>
+    </span>
   </div>
 </div>
 
