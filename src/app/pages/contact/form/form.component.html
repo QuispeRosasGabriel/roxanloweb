@@ -1,25 +1,23 @@
 <form action="https://formspree.io/mjvrkdwn" method="POST">
   <label>
-    Your email:
+    {{ "contact.form.mail" | translate }}
     <input type="text" name="_replyto" />
   </label>
   <label>
-    Your phone:
-    <input type="number" name="number" />
+    {{ "contact.form.phone" | translate }}
+    <input type="number" name="number" required />
   </label>
-  <label for="attending">Choose a country:</label>
-  <select>
-    <option
-      *ngFor="let pais of paises"
-      name="attending"
-      id="attending"
-      value="Country"
-      >{{ pais.name }}</option
-    >
+  <label for="attending">
+    {{ "contact.form.country" | translate }}
+  </label>
+  <select name="attending" id="attending">
+    <option *ngFor="let pais of paises" value="{pais.name}">{{
+      pais.name
+    }}</option>
   </select>
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+    {{ "contact.form.message" | translate }}
+    <textarea name="message" required></textarea>
   </label>
   <button type="submit">Send</button>
 </form>

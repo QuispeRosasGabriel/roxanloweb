@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 //This module helps u to use the pipe "translate"
 import { TranslateModule } from '@ngx-translate/core';
 import { FormComponent } from './form/form.component';
-
+// import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     ContactComponent,
@@ -15,7 +15,7 @@ import { FormComponent } from './form/form.component';
   imports: [
     ContactRoutingModule,
     TranslateModule,
-    CommonModule
+    CommonModule,
   ],
   exports: [
     ContactComponent,

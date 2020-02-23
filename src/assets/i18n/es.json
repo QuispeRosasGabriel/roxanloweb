@@ -61,6 +61,12 @@
   "contact": {
     "presentation": {
       "title": "Envíanos tus dudas, te responderemos en corto tiempo"
+    },
+    "form": {
+      "mail": "Email:",
+      "phone": "Teléfono:",
+      "country": "País:",
+      "message": "Mensaje:"
     }
   }
 }
