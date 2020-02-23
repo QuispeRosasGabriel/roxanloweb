@@ -7,19 +7,19 @@
     Your phone:
     <input type="number" name="number" />
   </label>
-  <label for="cars">Choose a car:</label>
-  <select id="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="mercedes">Mercedes</option>
-    <option value="audi">Audi</option>
+  <label for="attending">Choose a country:</label>
+  <select>
+    <option
+      *ngFor="let pais of paises"
+      name="attending"
+      id="attending"
+      value="Country"
+      >{{ pais.name }}</option
+    >
   </select>
   <label>
     Your message:
     <textarea name="message"></textarea>
   </label>
-
-  <!-- your other form fields go here -->
-
   <button type="submit">Send</button>
 </form>

@@ -15,7 +15,6 @@ import { FinComponent } from './shared/fin/fin.component';
 import { SocialComponent } from './shared/social/social.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CountriesService } from 'src/app/services/countries.service';
 
 @Component({
   selector: 'app-form',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
-  constructor() { }
+  paises: any[] = [];
+
+  constructor(private _countriesService: CountriesService) { }
 
   ngOnInit() {
+    this.getCountries();
+  }
+  getCountries() {
+    this._countriesService
+      .getData().subscribe((data: any) =>
+        this.paises = data
+      );
+    console.log(this.paises);
   }
 
 }
