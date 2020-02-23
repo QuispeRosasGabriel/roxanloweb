@@ -50,5 +50,11 @@
       "collapseTitleOne": "Trabajamos con gente alrededor del mundo",
       "collapseTitleTwo": "Se única, Se hermosa",
       "collapseTitleThree": "¿Tienes alguna duda?. ¡Hablemos!"
+    },
+    "collapseText": {
+      "collapseTextOne": "Trabajamos a diario a fin de crear colecciones unicas. Por eso, queremos llegar a cualquier pais, si estas interesado en comprar nuestros productos y vives en el extranjero, contáctanos.",
+      "collapseTextTwo": "Nuestra marca trabaja creando colecciones únicas y diferentes que marcan tendencia en la moda. Adquierelas todas y luce diferente",
+      "collapseTextThree": "Si tienes alguna pregunta o deseas ordenar algún modelo, puedes contactarnos usando nuestro formulario en nuestra web."
+    }
   }
 }
