@@ -57,5 +57,10 @@
       "collapseTextTwo": "Nuestra marca trabaja creando colecciones únicas y diferentes que marcan tendencia en la moda. Adquierelas todas y luce diferente",
       "collapseTextThree": "Si tienes alguna pregunta o deseas ordenar algún modelo, puedes contactarnos usando nuestro formulario en nuestra web."
     }
+  },
+  "contact": {
+    "presentation": {
+      "title": "Envíanos tus dudas, te responderemos en corto tiempo"
+    }
   }
 }

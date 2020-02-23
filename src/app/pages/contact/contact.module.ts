@@ -5,10 +5,12 @@ import { CommonModule } from '@angular/common';
 
 //This module helps u to use the pipe "translate"
 import { TranslateModule } from '@ngx-translate/core';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
-    ContactComponent
+    ContactComponent,
+    FormComponent
   ],
   imports: [
     ContactRoutingModule,

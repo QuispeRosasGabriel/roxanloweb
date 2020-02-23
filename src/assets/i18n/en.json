@@ -57,5 +57,10 @@
       "collapseTextTwo": "Our company works to create unique and beautiful collections. We are always on trend so get them and look different!",
       "collapseTextThree": "If you have any questions or you want to make an order, you can contact us using our Contact Form in the Roxanlo Page"
     }
+  },
+  "contact": {
+    "presentation": {
+      "title": "Let us know all your doubts, we'll answer in a short time"
+    }
   }
 }
