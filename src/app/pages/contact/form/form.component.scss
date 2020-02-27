@@ -26,3 +26,24 @@ $white: #ffffff;
 .inputSelect {
   width: 200px;
 }
+
+.googleMap {
+  @media screen and(min-width:$small-mobile) {
+    width: 292px;
+  }
+  @media screen and(min-width:$medium-mobile) {
+    width: 345px;
+  }
+  @media screen and(min-width:$large-mobile) {
+    width: 395px;
+  }
+  @media screen and(min-width:$tablet) {
+    width: 400px;
+  }
+  @media screen and(min-width:$medium-dektop) {
+    width: 450px;
+  }
+  @media screen and(min-width:$large-dektop) {
+    width: 530px;
+  }
+}
