@@ -12,12 +12,12 @@
         </label>
         <label for="attending">
           {{ "contact.form.country" | translate }}
+          <select name="attending" id="attending" class="inputSelect">
+            <option *ngFor="let pais of paises" value="{pais.name}">{{
+              pais.name
+            }}</option>
+          </select>
         </label>
-        <select name="attending" id="attending">
-          <option *ngFor="let pais of paises" value="{pais.name}">{{
-            pais.name
-          }}</option>
-        </select>
         <label>
           {{ "contact.form.message" | translate }}
           <textarea name="message" required class="inputText"></textarea>
