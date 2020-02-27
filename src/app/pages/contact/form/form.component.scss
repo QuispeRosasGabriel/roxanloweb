@@ -12,3 +12,13 @@ $secondary-roxanlo: #c3bcab;
 $black-main: #000000;
 $main-decorator: #f6f6f6;
 $white: #ffffff;
+
+.inputText {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #000000;
+  &:hover {
+    box-shadow: $main-roxanlo;
+  }
+}
