@@ -63,6 +63,7 @@
       "title": "Envíanos tus dudas, te responderemos en corto tiempo"
     },
     "form": {
+      "name": "Nombre",
       "mail": "Email:",
       "phone": "Teléfono:",
       "country": "País:",

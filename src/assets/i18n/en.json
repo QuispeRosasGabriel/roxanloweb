@@ -63,6 +63,7 @@
       "title": "Let us know all your doubts, we'll answer in a short time"
     },
     "form": {
+      "name": "Name",
       "mail": "Email:",
       "phone": "Phone:",
       "country": "Country:",

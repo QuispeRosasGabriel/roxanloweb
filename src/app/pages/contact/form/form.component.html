@@ -1,43 +1,30 @@
 <div class="container py-5">
-  <div class="row">
-    <div class="col-md-6">
-      <!-- <div
-      class="col-md-6 d-flex flex-column justify-content-center align-items-center"
-    > -->
-      <form action="https://formspree.io/mjvrkdwn" method="POST">
-        <div class="row">
-          <div class="col-md-6">
-            <label>
-              {{ "contact.form.mail" | translate }}
-              <input type="text" name="_replyto" required class="inputText" />
-            </label>
-          </div>
-          <div class="col-md-6">
-            <label>
-              {{ "contact.form.phone" | translate }}
-              <input type="number" name="number" required class="inputText" />
-            </label>
-          </div>
-        </div>
-        <div class="pt-4 d-flex flex-column justify-content-center">
-          <label>
-            {{ "contact.form.message" | translate }}
-            <textarea name="message" required class="inputText"></textarea>
-          </label>
-          <button type="submit">Send</button>
-        </div>
-      </form>
-    </div>
-    <div class="col-md-6">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.971807596225!2d-77.0346622845387!3d-12.114081491422418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8160ef9df35%3A0xd31507ac8837ceed!2sCalle%20Independencia%20587%2C%20Miraflores%2015074!5e0!3m2!1sen!2spe!4v1582769738765!5m2!1sen!2spe"
-        frameborder="0"
-        height="450px"
-        style="border:0;"
-        allowfullscreen=""
-        class="googleMap"
-      ></iframe>
-    </div>
+  <div class="row d-flex justify-content-center">
+    <form action="https://formspree.io/mjvrkdwn" method="POST">
+      <div class="group">
+        <input type="text" name="_replyto" required />
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>{{ "contact.form.mail" | translate }}</label>
+      </div>
+
+      <div class="group">
+        <input type="text" name="Email" required />
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>{{ "contact.form.name" | translate }}</label>
+      </div>
+      <div class="group">
+        <textarea name="message" id="" cols="30" rows="3"></textarea>
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>{{ "contact.form.message" | translate }}</label>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <div class="row show-tablet">
+    <img src="assets/img/contacto.jpg" alt="" />
   </div>
 </div>
 
