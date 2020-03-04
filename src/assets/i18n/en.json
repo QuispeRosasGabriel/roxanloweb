@@ -67,7 +67,8 @@
       "mail": "Email:",
       "phone": "Phone:",
       "country": "Country:",
-      "message": "Message:"
+      "message": "Message:",
+      "button": "Submit"
     }
   }
 }

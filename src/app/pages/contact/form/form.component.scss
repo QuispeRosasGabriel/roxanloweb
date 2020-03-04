@@ -200,5 +200,23 @@ textarea:focus ~ .highlight {
   @media screen and(min-width:$tablet) {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+  }
+}
+
+.banner-btn {
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  background-color: transparent;
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
   }
 }
