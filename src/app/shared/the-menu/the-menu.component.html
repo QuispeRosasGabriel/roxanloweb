@@ -1,92 +1,94 @@
-<div class="desktop-contenedor">
-  <div class="mobile-contenedor">
-    <div class="mobile-menu">
-      <nav class="navbar navbar-expand-lg navbar-light gabo-navbar">
-        <a class="navbar-brand" href="#">
-          <div class="brand-mobile">
-            <a class="brand-mobile-item" [routerLink]="['']">
-              ROXANLO
-            </a>
-          </div>
-        </a>
-
-        <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
-          <span class="navbar-toggler-icon icon-mobile"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" [ngClass]="{ show: navbarOpen }">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link font-details" [routerLink]="['']">
-                {{ "principal.menu.itemuno" | translate }}
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link font-details" [routerLink]="['/about']">
-                {{ "principal.menu.itemdos" | translate }}
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle font-details"
-                [routerLink]="['/gallery']"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                {{ "principal.menu.itemtres" | translate }}
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item font-details" href="#">Action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item font-details" href="#"
-                  >Another action</a
-                >
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item font-details" href="#"
-                  >Something else here</a
-                >
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-details" [routerLink]="['/contact']">
-                {{ "principal.menu.itemcuatro" | translate }}
-              </a>
-            </li>
-            <li class="nav-item">
-              <div class="d-flex justify-content-start align-items-start">
-                <span
-                  [ngClass]="{ active: activeLang == 'es' }"
-                  (click)="cambiarLenguaje('es')"
-                >
-                  <span class="idioma">ES</span>
-                </span>
-                <span
-                  [ngClass]="{ active: activeLang == 'en' }"
-                  (click)="cambiarLenguaje('en')"
-                >
-                  <span class="idioma">EN</span>
-                </span>
-              </div>
-            </li>
-          </ul>
+<div class="mobile-contenedor">
+  <div class="mobile-menu">
+    <nav class="navbar navbar-expand-lg navbar-light gabo-navbar">
+      <a class="navbar-brand" href="#">
+        <div class="brand-mobile">
+          <a class="brand-mobile-item" [routerLink]="['']">
+            ROXANLO
+          </a>
         </div>
-      </nav>
-    </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon icon-mobile"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" [ngClass]="{ show: navbarOpen }">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link font-details" [routerLink]="['']">
+              {{ "principal.menu.itemuno" | translate }}
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link font-details" [routerLink]="['/about']">
+              {{ "principal.menu.itemdos" | translate }}
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle font-details"
+              [routerLink]="['/gallery']"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              {{ "principal.menu.itemtres" | translate }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item font-details" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item font-details" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item font-details" href="#"
+                >Something else here</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-details" [routerLink]="['/contact']">
+              {{ "principal.menu.itemcuatro" | translate }}
+            </a>
+          </li>
+          <li class="nav-item">
+            <div class="d-flex justify-content-start align-items-start">
+              <span
+                [ngClass]="{ active: activeLang == 'es' }"
+                (click)="cambiarLenguaje('es')"
+              >
+                <span class="idioma">ES</span>
+              </span>
+
+              <span
+                [ngClass]="{ active: activeLang == 'en' }"
+                (click)="cambiarLenguaje('en')"
+              >
+                <span class="idioma">EN</span>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
+</div>
+<div class="desktop-contenedor">
   <div class="desktop-logo">
     <img src="assets/img/logo.png" alt="" class="logo-config" />
   </div>
   <div class="desktop-languages-flag">
-    <div
+    <span
       [ngClass]="{ active: activeLang == 'es' }"
       (click)="cambiarLenguaje('es')"
     >
       <span class="idioma">ES</span>
-    </div>
+    </span>
+    <span class="separator">
+      |
+    </span>
     <span
       [ngClass]="{ active: activeLang == 'en' }"
       (click)="cambiarLenguaje('en')"

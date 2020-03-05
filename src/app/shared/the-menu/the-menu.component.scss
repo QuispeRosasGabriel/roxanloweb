@@ -36,6 +36,14 @@ $min-width: 150px;
   color: #000000;
   margin-right: 4px;
   margin-left: 4px;
+  font-size: 11px;
+}
+
+.separator {
+  color: #000000;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 11px;
 }
 
 .mobile-contenedor {
@@ -76,9 +84,8 @@ $min-width: 150px;
     display: none;
   }
   @media screen and (min-width: $tablet) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    background-color: $main-roxanlo;
   }
 }
 
