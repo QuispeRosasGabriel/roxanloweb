@@ -39,13 +39,25 @@
               {{ "principal.menu.itemtres" | translate }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item font-details" href="#">Action</a>
+              <a class="dropdown-item font-details" href="#">{{
+                "principal.menu.subMenu.first" | translate
+              }}</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item font-details" href="#">Another action</a>
+              <a class="dropdown-item font-details" href="#">{{
+                "principal.menu.subMenu.second" | translate
+              }}</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item font-details" href="#"
-                >Something else here</a
-              >
+              <a class="dropdown-item font-details" href="#">{{
+                "principal.menu.subMenu.third" | translate
+              }}</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item font-details" href="#">{{
+                "principal.menu.subMenu.fourth" | translate
+              }}</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item font-details" href="#">{{
+                "principal.menu.subMenu.fifth" | translate
+              }}</a>
             </div>
           </li>
           <li class="nav-item">
@@ -117,12 +129,11 @@
       </a>
       <ul class="drop">
         <div>
-          <li>Elemento1</li>
-          <li>Elemento1</li>
-          <li>Elemento1</li>
-          <li>Elemento1</li>
-          <li>Elemento1</li>
-          <li>Elemento1</li>
+          <li>{{ "principal.menu.subMenu.first" | translate }}</li>
+          <li>{{ "principal.menu.subMenu.second" | translate }}</li>
+          <li>{{ "principal.menu.subMenu.third" | translate }}</li>
+          <li>{{ "principal.menu.subMenu.fourth" | translate }}</li>
+          <li>{{ "principal.menu.subMenu.fifth" | translate }}</li>
         </div>
       </ul>
     </li>

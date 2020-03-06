@@ -4,7 +4,14 @@
       "itemuno": "Inicio",
       "itemdos": "Nosotros",
       "itemtres": "Galeria",
-      "itemcuatro": "Contacto"
+      "itemcuatro": "Contacto",
+      "subMenu": {
+        "first": "Mujer",
+        "second": "Hombre",
+        "third": "Bebes",
+        "fourth": "Niños",
+        "fifth": "Accesorios"
+      }
     },
     "botones": {
       "calluno": "Ver Más"

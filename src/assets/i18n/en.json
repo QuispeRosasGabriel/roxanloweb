@@ -4,7 +4,14 @@
       "itemuno": "Home",
       "itemdos": "About",
       "itemtres": "Gallery",
-      "itemcuatro": "Contact"
+      "itemcuatro": "Contact",
+      "subMenu": {
+        "first": "Woman",
+        "second": "Man",
+        "third": "Baby",
+        "fourth": "Child",
+        "fifth": "Accessories"
+      }
     },
     "botones": {
       "calluno": "Discover"
