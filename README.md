@@ -30,7 +30,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 This project was designed and developed by Gabriel Quispe Rosas
 
-## Used Libraries
+## Img Bucket
 
-npm install primeng --save
-npm install primeicons --save
+## Slider
+
+https://i.postimg.cc/Dw5tQ3kp/BANNER-GOLDEN-HEART.jpg
+https://i.postimg.cc/zXrM9GqP/banner-principal-paracas-bomber.jpg
+https://i.postimg.cc/8kHBzphY/BANNER-SET-NATURAL-ALPACA200.jpg
+https://i.postimg.cc/yYpm0LpX/BANNER-SET-ROJO-ALPACA200.png
+https://i.postimg.cc/x1kK5LWr/GRAFITO-SET-OK-BANNER200.png
