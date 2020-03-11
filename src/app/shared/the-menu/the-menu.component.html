@@ -91,7 +91,9 @@
   <div class="desktop-logo">
     <img src="assets/img/logo.png" alt="" class="logo-config" />
   </div>
-  <div class="desktop-languages-flag">
+  <div
+    class="desktop-languages-flag d-sm-none d-md-flex justify-content-end align-items-center"
+  >
     <span
       [ngClass]="{ active: activeLang == 'es' }"
       (click)="cambiarLenguaje('es')"

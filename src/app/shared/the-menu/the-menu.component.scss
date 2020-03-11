@@ -34,16 +34,24 @@ $min-width: 150px;
   text-decoration: underline;
   cursor: pointer;
   color: #000000;
-  margin-right: 4px;
-  margin-left: 4px;
-  font-size: 11px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 10px;
+  @media screen and (min-width: $tablet) {
+    margin-right: 1px;
+    margin-left: 1px;
+  }
 }
 
 .separator {
   color: #000000;
-  margin-right: 4px;
-  margin-left: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
   font-size: 11px;
+  @media screen and (min-width: $tablet) {
+    margin-right: 1px;
+    margin-left: 1px;
+  }
 }
 
 .mobile-contenedor {
@@ -84,8 +92,8 @@ $min-width: 150px;
     display: none;
   }
   @media screen and (min-width: $tablet) {
-    display: inline-block;
-    background-color: $main-roxanlo;
+    // display: inline-block;
+    // background-color: $main-roxanlo;
   }
 }
 
@@ -181,6 +189,8 @@ li {
 .font-details {
   color: #000000;
   text-decoration: none;
+  font-weight: 100;
+  font-size: 13px;
   &:hover {
     font-weight: bold;
   }
