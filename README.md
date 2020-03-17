@@ -1,3 +1,7 @@
+# Important
+
+All rights reserved - This page is for ROXANLO and only for that. You can just use it to take some basic ideas about services and css effects.
+
 # RoxanloWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
