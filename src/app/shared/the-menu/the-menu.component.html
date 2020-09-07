@@ -3,9 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light gabo-navbar">
       <a class="navbar-brand" href="#">
         <div class="brand-mobile">
-          <a class="brand-mobile-item" [routerLink]="['']">
-            ROXANLO
-          </a>
+          <a class="brand-mobile-item" [routerLink]="['']"> ROXANLO </a>
         </div>
       </a>
 
@@ -42,10 +40,10 @@
               <a class="dropdown-item font-details" href="#">{{
                 "principal.menu.subMenu.first" | translate
               }}</a>
-              <div class="dropdown-divider"></div>
+              <!-- <div class="dropdown-divider"></div>
               <a class="dropdown-item font-details" href="#">{{
                 "principal.menu.subMenu.second" | translate
-              }}</a>
+              }}</a> -->
               <div class="dropdown-divider"></div>
               <a class="dropdown-item font-details" href="#">{{
                 "principal.menu.subMenu.third" | translate
@@ -100,9 +98,7 @@
     >
       <span class="idioma">ES</span>
     </span>
-    <span class="separator">
-      |
-    </span>
+    <span class="separator"> | </span>
     <span
       [ngClass]="{ active: activeLang == 'en' }"
       (click)="cambiarLenguaje('en')"
@@ -132,7 +128,7 @@
       <ul class="drop">
         <div>
           <li>{{ "principal.menu.subMenu.first" | translate }}</li>
-          <li>{{ "principal.menu.subMenu.second" | translate }}</li>
+          <!-- <li>{{ "principal.menu.subMenu.second" | translate }}</li> -->
           <li>{{ "principal.menu.subMenu.third" | translate }}</li>
           <li>{{ "principal.menu.subMenu.fourth" | translate }}</li>
           <li>{{ "principal.menu.subMenu.fifth" | translate }}</li>

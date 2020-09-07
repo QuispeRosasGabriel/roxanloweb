@@ -39,7 +39,15 @@
       "thirdCard": "Unique"
     },
     "textBanner": {
-      "title": "Some Concepts About Us"
+      "title": "Some Concepts About Us",
+      "values": "Roxan Lo Values:"
+    },
+    "valuesList": {
+      "firstValue": "Eco friendly and sustainable",
+      "secondValue": "Rescue of ancestral techniques",
+      "thirdValue": "Fair trade and socially responsible",
+      "fourthValue": "Handmade and high end quality",
+      "fifthValue": "Slow fashion with near zero waste and innovative design"
     },
     "cardText": {
       "firstCardText": "We make many collections for women and kids.They're really comfortable and modern.",

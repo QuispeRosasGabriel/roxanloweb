@@ -39,7 +39,15 @@
       "thirdCard": "Exclusividad"
     },
     "textBanner": {
-      "title": "Cónoce Un Poco de Nosotros"
+      "title": "Cónoce Un Poco de Nosotros",
+      "values": "Valores de la marca Roxan Lo:"
+    },
+    "valuesList": {
+      "firstValue": "Sostenible y eco amigable",
+      "secondValue": "Rescate de técnicas ancestrales",
+      "thirdValue": "Socialmente responsable",
+      "fourthValue": "Hecho a mano con acabados de gama alta",
+      "fifthValue": "Slow fashion, cerca de cero desperdicio y diseños innovadores"
     },
     "cardText": {
       "firstCardText": "Fabricamos gran variedad de colecciones para mujeres y niños. Nuestros productos son muy cómodos y modernos.",
