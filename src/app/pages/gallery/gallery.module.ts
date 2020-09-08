@@ -7,11 +7,19 @@ import { TranslateModule } from '@ngx-translate/core';
 import { GalleryRoutingModule } from './gallery.routing';
 
 import { PhotoPieceComponent } from 'src/app/shared/photo-piece/photo-piece.component';
+import { WomanComponent } from './woman/woman.component';
+import { BabyComponent } from './baby/baby.component';
+import { ChildComponent } from './child/child.component';
+import { AccesoriesComponent } from './accesories/accesories.component';
 
 @NgModule({
   declarations: [
     GalleryComponent,
-    PhotoPieceComponent
+    PhotoPieceComponent,
+    WomanComponent,
+    BabyComponent,
+    ChildComponent,
+    AccesoriesComponent
   ],
   imports: [
     GalleryRoutingModule,

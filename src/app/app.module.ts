@@ -13,6 +13,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TheMenuComponent } from './shared/the-menu/the-menu.component';
 import { FinComponent } from './shared/fin/fin.component';
 import { SocialComponent } from './shared/social/social.component';
+import { GalleryPieceComponent } from './shared/gallery-piece/gallery-piece.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SocialComponent } from './shared/social/social.component';
     TheMenuComponent,
     FinComponent,
     SocialComponent,
+    GalleryPieceComponent,
   ],
   imports: [
     BrowserModule,
