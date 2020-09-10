@@ -11,7 +11,7 @@ export class WomanComponent implements OnInit {
   constructor() {
     this.imgWoman = "https://i.postimg.cc/PJLWPRC1/GOLDEN-HEART-TUNIC.jpg";
     this.desc =
-      "https://docs.google.com/presentation/d/1qpJT5w4\noQsSdAHCoxtd\nrlszvTTqXl2bHb4nKKYk0MVg\n/mobilepresent?s\nlide=id.g2bbdf077bf_0_20";
+      "https://docs.google.com/present\nation/d/16qr8fXv\nCTmBOZpqBefUY\n4c7C-JlxkR_jE0Q82VR2mnc/e\ndit?usp=sharing";
   }
 
   ngOnInit() {}
