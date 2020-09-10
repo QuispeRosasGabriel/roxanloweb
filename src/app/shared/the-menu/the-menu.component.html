@@ -37,27 +37,27 @@
               {{ "principal.menu.itemtres" | translate }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a
-                class="dropdown-item font-details"
-                routerLink="/gallery/woman"
-                >{{ "principal.menu.subMenu.first" | translate }}</a
+              <a class="dropdown-item font-details" [routerLink]="['/woman']">
+                {{ "principal.menu.subMenu.first" | translate }}</a
               >
               <!-- <div class="dropdown-divider"></div>
               <a class="dropdown-item font-details" href="#">{{
                 "principal.menu.subMenu.second" | translate
               }}</a> -->
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item font-details" href="#">{{
+              <a class="dropdown-item font-details" [routerLink]="['/baby']">{{
                 "principal.menu.subMenu.third" | translate
               }}</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item font-details" href="#">{{
+              <a class="dropdown-item font-details" [routerLink]="['/child']">{{
                 "principal.menu.subMenu.fourth" | translate
               }}</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item font-details" href="#">{{
-                "principal.menu.subMenu.fifth" | translate
-              }}</a>
+              <a
+                class="dropdown-item font-details"
+                [routerLink]="['/accesories']"
+                >{{ "principal.menu.subMenu.fifth" | translate }}</a
+              >
             </div>
           </li>
           <li class="nav-item">
@@ -129,11 +129,19 @@
       </a>
       <ul class="drop">
         <div>
-          <li>{{ "principal.menu.subMenu.first" | translate }}</li>
+          <li [routerLink]="['/woman']">
+            {{ "principal.menu.subMenu.first" | translate }}
+          </li>
           <!-- <li>{{ "principal.menu.subMenu.second" | translate }}</li> -->
-          <li>{{ "principal.menu.subMenu.third" | translate }}</li>
-          <li>{{ "principal.menu.subMenu.fourth" | translate }}</li>
-          <li>{{ "principal.menu.subMenu.fifth" | translate }}</li>
+          <li [routerLink]="['/baby']">
+            {{ "principal.menu.subMenu.third" | translate }}
+          </li>
+          <li [routerLink]="['/child']">
+            {{ "principal.menu.subMenu.fourth" | translate }}
+          </li>
+          <li [routerLink]="['/accesories']">
+            {{ "principal.menu.subMenu.fifth" | translate }}
+          </li>
         </div>
       </ul>
     </li>

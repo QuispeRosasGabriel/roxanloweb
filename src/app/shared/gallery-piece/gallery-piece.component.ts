@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-gallery-piece',
-  templateUrl: './gallery-piece.component.html',
-  styleUrls: ['./gallery-piece.component.scss']
+  selector: "app-gallery-piece",
+  templateUrl: "./gallery-piece.component.html",
+  styleUrls: ["./gallery-piece.component.scss"],
 })
 export class GalleryPieceComponent implements OnInit {
+  @Input() public img: String;
+  @Input() public desc: string;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

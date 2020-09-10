@@ -11,6 +11,7 @@ $main-roxanlo: #dacc99;
 $secondary-roxanlo: #c3bcab;
 $black-main: #000000;
 $main-decorator: #f6f6f6;
+$new-roxanlo: #f0f2f3;
 $white: #ffffff;
 
 $min-width: 150px;
@@ -161,12 +162,13 @@ li {
     display: block;
     padding: 0;
     width: 100%;
-    background: $secondary-roxanlo !important;
+    background: $new-roxanlo !important;
   }
 }
 #marker {
   height: 6px;
-  background: $secondary-roxanlo !important;
+  // background: $secondary-roxanlo  !important;
+  background: $new-roxanlo !important;
   position: absolute;
   bottom: 0;
   width: $min-width;
