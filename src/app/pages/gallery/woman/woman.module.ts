@@ -6,11 +6,15 @@ import { TranslateModule } from "@ngx-translate/core";
 
 import { WomanRoutingModule } from "./woman.routing";
 import { WomanComponent } from "./woman.component";
-import { GalleryPieceComponent } from "src/app/shared/gallery-piece/gallery-piece.component";
-
+import { GalleryPieceModule } from "src/app/shared/gallery-piece/gallery-piece.module";
 @NgModule({
-  declarations: [WomanComponent, GalleryPieceComponent],
-  imports: [WomanRoutingModule, TranslateModule, CommonModule],
-  exports: [WomanComponent, WomanRoutingModule, GalleryPieceComponent],
+  declarations: [WomanComponent],
+  imports: [
+    WomanRoutingModule,
+    GalleryPieceModule,
+    TranslateModule,
+    CommonModule,
+  ],
+  exports: [WomanComponent, WomanRoutingModule],
 })
 export class WomanModule {}

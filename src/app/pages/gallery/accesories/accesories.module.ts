@@ -5,10 +5,16 @@ import { CommonModule } from "@angular/common";
 import { TranslateModule } from "@ngx-translate/core";
 import { AccesoriesComponent } from "./accesories.component";
 import { AccesoriesRoutingModule } from "./accesories.routing";
+import { GalleryPieceModule } from "src/app/shared/gallery-piece/gallery-piece.module";
 
 @NgModule({
   declarations: [AccesoriesComponent],
-  imports: [AccesoriesRoutingModule, TranslateModule, CommonModule],
+  imports: [
+    AccesoriesRoutingModule,
+    TranslateModule,
+    GalleryPieceModule,
+    CommonModule,
+  ],
   exports: [AccesoriesComponent, AccesoriesRoutingModule],
 })
 export class ChildModule {}

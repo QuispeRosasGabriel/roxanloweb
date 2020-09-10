@@ -1,2 +1,8 @@
-<img [src]="img" alt="" />
-<p>{{ desc }}</p>
+<div class="container my-3">
+  <div class="d-flex justify-content-center">
+    <img [src]="img" class="img-fluid" alt="Responsive image" />
+  </div>
+  <p class="text-center my-3 decorate" (click)="goDesc()">
+    <u>{{ desc }}</u>
+  </p>
+</div>

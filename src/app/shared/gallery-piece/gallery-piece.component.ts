@@ -11,4 +11,9 @@ export class GalleryPieceComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  public goDesc() {
+    // window.location.href = this.desc;
+    window.open(this.desc, "_blank");
+  }
 }

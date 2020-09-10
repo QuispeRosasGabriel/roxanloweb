@@ -91,3 +91,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
     margin: 0;
   }
 }
+
+.decorate :hover {
+  cursor: pointer;
+  // text-decoration: underline overline #ff3028;
+}
