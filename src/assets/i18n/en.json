@@ -78,6 +78,11 @@
       "collapseTextThree": "If you have any questions or you want to make an order, you can contact us using our Contact Form in the Roxanlo Page"
     }
   },
+  "gallery": {
+    "titles": {
+      "lookAt": "Look all the photos: "
+    }
+  },
   "contact": {
     "presentation": {
       "title": "Let us know all your doubts, we'll answer in a short time"

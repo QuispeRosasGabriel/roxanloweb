@@ -78,6 +78,11 @@
       "collapseTextThree": "Si tienes alguna pregunta o deseas ordenar algún modelo, puedes contactarnos usando nuestro formulario en nuestra web."
     }
   },
+  "gallery": {
+    "titles": {
+      "lookAt": "Mira el catálogo completo aquí: "
+    }
+  },
   "contact": {
     "presentation": {
       "title": "Envíanos tus dudas, te responderemos en corto tiempo"
