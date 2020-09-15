@@ -44,7 +44,7 @@
       "thirdCard": "Unique"
     },
     "textBanner": {
-      "title": "Some Concepts About Us",
+      "title": "Who makes my clothes?",
       "values": "Roxan Lo Values:"
     },
     "valuesList": {
@@ -55,7 +55,7 @@
       "fifthValue": "Slow fashion with near zero waste and innovative design"
     },
     "cardText": {
-      "firstCardText": "We make many collections for women and kids.They're really comfortable and modern.",
+      "firstCardText": "We generate strategic alliance with various groups of artisans in the Andes and vulnerable areas of Lima.",
       "secondCardText": "Make modern products that are manufactured with ecological supplies",
       "thirdCardText": "The women do work at home or in grazing fields while doing their domestic activity. It is then sent to wash, vaporize, code and pack with Bio Seguridad controls and quality controls"
     },
@@ -63,8 +63,10 @@
       "text": "Learn More"
     },
     "bannerPhrase": {
-      "phrase": "Let us to tell you more",
-      "lead": "We care about using natural fibers to create each one of our collections"
+      "phrase": "Eco Friendly Materials",
+      "lead": "Alpaca",
+      "leadTwo": "Cotton Pima",
+      "leadThree": "Certified Organic Cotton"
     },
     "collapseTitle": {
       "collapseTitleOne": "Working with people around the world",

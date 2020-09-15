@@ -44,8 +44,8 @@
       "thirdCard": "Exclusividad"
     },
     "textBanner": {
-      "title": "Cónoce Un Poco de Nosotros",
-      "values": "Valores de la marca Roxan Lo:"
+      "title": "¿Quién hace mi ropa?",
+      "values": "Nuestros Valores:"
     },
     "valuesList": {
       "firstValue": "Sostenible y eco amigable",
@@ -55,7 +55,7 @@
       "fifthValue": "Slow fashion, cerca de cero desperdicio y diseños innovadores"
     },
     "cardText": {
-      "firstCardText": "Fabricamos gran variedad de colecciones para mujeres y niños. Nuestros productos son muy cómodos y modernos.",
+      "firstCardText": "Generamos alianzas estratégicas con diversos grupos de artesanos en los Andes y zonas vulnerables de Lima.",
       "secondCardText": "Fabricamos productos modernos los cuales son desarrollados usando insumos totalmente ecológicos.",
       "thirdCardText": "Las mujeres trabajan en casa o en los campos de pastoreo mientras realizan sus actividades domésticas. Posteriormente se envía a lavar, vaporizar, codificar, con controles de Bio Seguridad y control de calidad."
     },
@@ -63,8 +63,10 @@
       "text": "Saber Más"
     },
     "bannerPhrase": {
-      "phrase": "Te contamos un poco más",
-      "lead": "Nos centramos en usar fibras naturales para armar cada una de nuestras colecciones"
+      "phrase": "Materiales Eco Amigables",
+      "lead": "Alpaca",
+      "leadTwo": "Algodón Pima",
+      "leadThree": "Algodón Orgánico Certificado"
     },
     "collapseTitle": {
       "megaCollapseTitle": "Preguntas Frecuentes",
