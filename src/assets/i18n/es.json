@@ -20,11 +20,11 @@
       "titleSlider": "Productos Exclusivos"
     },
     "mixed": {
-      "section": "MujAlgodón & Organico Moda Sostenibleer",
+      "section": "Algodón Pima & Algodón Orgánico",
       "call": "Sé Tu Misma"
     },
     "wanted": {
-      "titleNatural": "Moda Sostenible",
+      "titleNatural": "Sostenible & Eco Amigable",
       "descriptionNatural": "Desde tiempos de los Pre-Incas los antiguos Peruanos desarrollaron un maravilloso arte textil transmitiendo valores de una rica cultura.",
       "subDescriptionNatural": "Inspirados en el mágico mundo Andino y su herencia ancestral, creamos arte textil con Algodón Pima, Algodón Orgánico y Alpaca, fibras naturales, eco sostenibles para la vida moderna."
     },
@@ -32,9 +32,9 @@
       "presentation": "Alpaca Moda Sostenible"
     },
     "fin": {
-      "connect": "Sostenible y eco amigable",
+      "connect": "Respetuoso del medio ambiente",
       "out": "Socialmente responsable",
-      "security": "Hecho a mano de alta calidad"
+      "security": "Hecho a mano: Gama alta"
     }
   },
   "about": {
@@ -82,7 +82,7 @@
   },
   "gallery": {
     "titles": {
-      "lookAt": "Mira el catálogo completo aquí: "
+      "lookAt": "Ver colección completa: "
     }
   },
   "contact": {
